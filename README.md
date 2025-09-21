@@ -5,18 +5,18 @@ Tarea 1 de compiladores
 Este proyecto implementa un analizador léxico en C
 
 ## Uso
-Compilar con:
 
+Compilar con:
 ```sh
-gcc main.c anlex.c -o anlex
+gcc main.c anlex.c -o anlex_compiled
 ```
 Ejecutar con:
 
 ```sh
-./anlex fuente.txt output.txt
+./anlex_compiled examples/fuente.txt examples/output.txt
 ```
 
-## Integrantes
+## Integrante
 
 - Alexis Irala
 
