@@ -1,6 +1,27 @@
-# compiladores
 Tarea 1 de compiladores
 
-Autor: Alexis Irala
+# Analizador lexico JSON
 
-Para compilar: 
+Este proyecto implementa un analizador léxico en C para un lenguaje JSON simplificado.
+
+## Uso
+Compilar con:
+
+```sh
+gcc main.c anlex.c -o anlex
+```
+Ejecutar con:
+
+```sh
+./anlex fuente.txt output.txt
+```
+
+## Integrantes
+
+- Alexis Irala
+
+## Descripción
+
+- Lee `fuente.txt` línea por línea.
+- Genera `output.txt` con los tokens encontrados en cada línea.
+- Reporta errores léxicos por consola y continúa con la siguiente línea.
