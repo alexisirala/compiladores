@@ -2,7 +2,7 @@ Tarea 1 de compiladores
 
 # Analizador lexico JSON
 
-Este proyecto implementa un analizador léxico en C para un lenguaje JSON simplificado.
+Este proyecto implementa un analizador léxico en C
 
 ## Uso
 Compilar con:
